@@ -14,3 +14,6 @@
 
 **Number of decimals**
 * 18
+
+**Max Supply**
+* 5,000,000,000
