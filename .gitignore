@@ -3,3 +3,4 @@ node_modules/
 test/helpers/mockContracts/Internal/
 flat/
 test/helpers/internal/
+"CDAG Smart Contract.sol"
