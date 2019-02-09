@@ -1,4 +1,4 @@
-#CannDollar ERC20 Token with following options.
+# CannDollar ERC20 Token with following options.
 
 1. Burnable
 2. Mintable
