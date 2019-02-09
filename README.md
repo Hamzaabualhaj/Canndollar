@@ -7,10 +7,10 @@
 
 **Token Name**
 
-"CannDollar", 
+* "CannDollar"
 
 **Token Ticker**
-"CDAG"
+* "CDAG"
 
-Number of decimals
-18
+**Number of decimals**
+* 18
