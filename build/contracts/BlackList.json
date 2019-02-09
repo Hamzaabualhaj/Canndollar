@@ -116,7 +116,7 @@
       "constant": true,
       "inputs": [
         {
-          "name": "_maker",
+          "name": "_user",
           "type": "address"
         }
       ],
@@ -135,7 +135,7 @@
       "constant": false,
       "inputs": [
         {
-          "name": "_evilUser",
+          "name": "_user",
           "type": "address"
         }
       ],
@@ -149,7 +149,7 @@
       "constant": false,
       "inputs": [
         {
-          "name": "_clearedUser",
+          "name": "_user",
           "type": "address"
         }
       ],
@@ -160,11 +160,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3610752806100cf6000396000f3fe608060405234801561001057600080fd5b50600436106100a5576000357c010000000000000000000000000000000000000000000000000000000090048063e4997dc511610078578063e4997dc514610164578063f2fde38b146101a8578063f9f92be4146101ec578063fe575a8714610248576100a5565b80630ecb93c0146100aa578063715018a6146100ee5780638da5cb5b146100f85780638f32d59b14610142575b600080fd5b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a4565b005b6100f6610374565b005b610100610446565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61046f565b604051808215151515815260200191505060405180910390f35b6101a66004803603602081101561017a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6101ea600480360360208110156101be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610597565b005b61022e6004803603602081101561020257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105b6565b604051808215151515815260200191505060405180910390f35b61028a6004803603602081101561025e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105d6565b604051808215151515815260200191505060405180910390f35b6102ac61046f565b15156102b757600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f42e160154868087d6bfdc0ca23d96a1c1cfa32f1b72ba9ba27b69b98a0d819dc81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61037c61046f565b151561038757600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104ce61046f565b15156104d957600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507fd7e9ec6e6ecd65492dce6bf513cd6867560d49544421d0783ddf06e76c24470c81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61059f61046f565b15156105aa57600080fd5b6105b38161062c565b50565b60016020528060005260406000206000915054906101000a900460ff1681565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561066857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820ad43474f2539bc23afbe0aadf168e456026b135dcf21c7c104872ac1f3aca5b00029",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100a5576000357c010000000000000000000000000000000000000000000000000000000090048063e4997dc511610078578063e4997dc514610164578063f2fde38b146101a8578063f9f92be4146101ec578063fe575a8714610248576100a5565b80630ecb93c0146100aa578063715018a6146100ee5780638da5cb5b146100f85780638f32d59b14610142575b600080fd5b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a4565b005b6100f6610374565b005b610100610446565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61046f565b604051808215151515815260200191505060405180910390f35b6101a66004803603602081101561017a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6101ea600480360360208110156101be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610597565b005b61022e6004803603602081101561020257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105b6565b604051808215151515815260200191505060405180910390f35b61028a6004803603602081101561025e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105d6565b604051808215151515815260200191505060405180910390f35b6102ac61046f565b15156102b757600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f42e160154868087d6bfdc0ca23d96a1c1cfa32f1b72ba9ba27b69b98a0d819dc81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61037c61046f565b151561038757600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104ce61046f565b15156104d957600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507fd7e9ec6e6ecd65492dce6bf513cd6867560d49544421d0783ddf06e76c24470c81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61059f61046f565b15156105aa57600080fd5b6105b38161062c565b50565b60016020528060005260406000206000915054906101000a900460ff1681565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561066857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820ad43474f2539bc23afbe0aadf168e456026b135dcf21c7c104872ac1f3aca5b00029",
-  "sourceMap": "184:791:0:-;;;524:10:9;515:6;;:19;;;;;;;;;;;;;;;;;;582:6;;;;;;;;;;;549:40;;578:1;549:40;;;;;;;;;;;;184:791:0;;;;;;",
-  "deployedSourceMap": "184:791:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:791:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;665:143;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;665:143:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;1347:137:9;;;:::i;:::-;;659:77;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;979:90;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;814:158:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;814:158:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;1655:107:9;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1655:107:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;221:42:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;221:42:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;548:107;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;548:107:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;665:143;863:9:9;:7;:9::i;:::-;855:18;;;;;;;;757:4:0;734:9;:20;744:9;734:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;776:25;791:9;776:25;;;;;;;;;;;;;;;;;;;;;;665:143;:::o;1347:137:9:-;863:9;:7;:9::i;:::-;855:18;;;;;;;;1445:1;1408:40;;1429:6;;;;;;;;;;;1408:40;;;;;;;;;;;;1475:1;1458:6;;:19;;;;;;;;;;;;;;;;;;1347:137::o;659:77::-;697:7;723:6;;;;;;;;;;;716:13;;659:77;:::o;979:90::-;1019:4;1056:6;;;;;;;;;;;1042:20;;:10;:20;;;1035:27;;979:90;:::o;814:158:0:-;863:9:9;:7;:9::i;:::-;855:18;;;;;;;;915:5:0;889:9;:23;899:12;889:23;;;;;;;;;;;;;;;;:31;;;;;;;;;;;;;;;;;;935:30;952:12;935:30;;;;;;;;;;;;;;;;;;;;;;814:158;:::o;1655:107:9:-;863:9;:7;:9::i;:::-;855:18;;;;;;;;1727:28;1746:8;1727:18;:28::i;:::-;1655:107;:::o;221:42:0:-;;;;;;;;;;;;;;;;;;;;;;:::o;548:107::-;608:4;631:9;:17;641:6;631:17;;;;;;;;;;;;;;;;;;;;;;;;;624:24;;548:107;;;:::o;1906:183:9:-;1999:1;1979:22;;:8;:22;;;;1971:31;;;;;;;;2046:8;2017:38;;2038:6;;;;;;;;;;;2017:38;;;;;;;;;;;;2074:8;2065:6;;:17;;;;;;;;;;;;;;;;;;1906:183;:::o",
-  "source": "pragma solidity ^0.5.2;\n\n\nimport \"../../openzeppelin-solidity/contracts/ownership/Ownable.sol\";\n\n/// @title BlackList\n/// @dev Smart contract to enable blacklisting of token holders. \ncontract BlackList is Ownable {\n\n    mapping (address => bool) public blacklist;\n\n    event AddedBlackList(address user);\n    event RemovedBlackList(address user);\n\n\n    modifier isNotBlacklisted(address _from, address _to) {\n        require(!blacklist[_from], \"User is blacklisted\");\n        require(!blacklist[_to], \"User is blacklisted\");\n        _;\n    }\n\n    function isBlacklisted(address _maker) public view returns (bool) {\n        return blacklist[_maker];\n    }\n    \n    function addBlackList (address _evilUser) public onlyOwner {\n        blacklist[_evilUser] = true;\n        emit AddedBlackList(_evilUser);\n    }\n\n    function removeBlackList (address _clearedUser) public onlyOwner {\n        blacklist[_clearedUser] = false;\n        emit RemovedBlackList(_clearedUser);\n    }\n\n}",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3610752806100cf6000396000f3fe608060405234801561001057600080fd5b50600436106100a5576000357c010000000000000000000000000000000000000000000000000000000090048063e4997dc511610078578063e4997dc514610164578063f2fde38b146101a8578063f9f92be4146101ec578063fe575a8714610248576100a5565b80630ecb93c0146100aa578063715018a6146100ee5780638da5cb5b146100f85780638f32d59b14610142575b600080fd5b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a4565b005b6100f6610374565b005b610100610446565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61046f565b604051808215151515815260200191505060405180910390f35b6101a66004803603602081101561017a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6101ea600480360360208110156101be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610597565b005b61022e6004803603602081101561020257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105b6565b604051808215151515815260200191505060405180910390f35b61028a6004803603602081101561025e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105d6565b604051808215151515815260200191505060405180910390f35b6102ac61046f565b15156102b757600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f42e160154868087d6bfdc0ca23d96a1c1cfa32f1b72ba9ba27b69b98a0d819dc81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61037c61046f565b151561038757600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104ce61046f565b15156104d957600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507fd7e9ec6e6ecd65492dce6bf513cd6867560d49544421d0783ddf06e76c24470c81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61059f61046f565b15156105aa57600080fd5b6105b38161062c565b50565b60016020528060005260406000206000915054906101000a900460ff1681565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561066857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820d35ba9eff1354cbd395c3d60f1202538cb65e2084bdafdb6f833a4240134a9580029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100a5576000357c010000000000000000000000000000000000000000000000000000000090048063e4997dc511610078578063e4997dc514610164578063f2fde38b146101a8578063f9f92be4146101ec578063fe575a8714610248576100a5565b80630ecb93c0146100aa578063715018a6146100ee5780638da5cb5b146100f85780638f32d59b14610142575b600080fd5b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a4565b005b6100f6610374565b005b610100610446565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61046f565b604051808215151515815260200191505060405180910390f35b6101a66004803603602081101561017a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6101ea600480360360208110156101be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610597565b005b61022e6004803603602081101561020257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105b6565b604051808215151515815260200191505060405180910390f35b61028a6004803603602081101561025e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105d6565b604051808215151515815260200191505060405180910390f35b6102ac61046f565b15156102b757600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f42e160154868087d6bfdc0ca23d96a1c1cfa32f1b72ba9ba27b69b98a0d819dc81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61037c61046f565b151561038757600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104ce61046f565b15156104d957600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507fd7e9ec6e6ecd65492dce6bf513cd6867560d49544421d0783ddf06e76c24470c81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b61059f61046f565b15156105aa57600080fd5b6105b38161062c565b50565b60016020528060005260406000206000915054906101000a900460ff1681565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff169050919050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561066857600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820d35ba9eff1354cbd395c3d60f1202538cb65e2084bdafdb6f833a4240134a9580029",
+  "sourceMap": "184:1211:0:-;;;524:10:9;515:6;;:19;;;;;;;;;;;;;;;;;;582:6;;;;;;;;;;;549:40;;578:1;549:40;;;;;;;;;;;;184:1211:0;;;;;;",
+  "deployedSourceMap": "184:1211:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:1211:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1019:131;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1019:131:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;1347:137:9;;;:::i;:::-;;659:77;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;979:90;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1255:137:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1255:137:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;1655:107:9;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1655:107:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;221:42:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;221:42:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;834:105;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;834:105:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1019:131;863:9:9;:7;:9::i;:::-;855:18;;;;;;;;1103:4:0;1084:9;:16;1094:5;1084:16;;;;;;;;;;;;;;;;:23;;;;;;;;;;;;;;;;;;1122:21;1137:5;1122:21;;;;;;;;;;;;;;;;;;;;;;1019:131;:::o;1347:137:9:-;863:9;:7;:9::i;:::-;855:18;;;;;;;;1445:1;1408:40;;1429:6;;;;;;;;;;;1408:40;;;;;;;;;;;;1475:1;1458:6;;:19;;;;;;;;;;;;;;;;;;1347:137::o;659:77::-;697:7;723:6;;;;;;;;;;;716:13;;659:77;:::o;979:90::-;1019:4;1056:6;;;;;;;;;;;1042:20;;:10;:20;;;1035:27;;979:90;:::o;1255:137:0:-;863:9:9;:7;:9::i;:::-;855:18;;;;;;;;1342:5:0;1323:9;:16;1333:5;1323:16;;;;;;;;;;;;;;;;:24;;;;;;;;;;;;;;;;;;1362:23;1379:5;1362:23;;;;;;;;;;;;;;;;;;;;;;1255:137;:::o;1655:107:9:-;863:9;:7;:9::i;:::-;855:18;;;;;;;;1727:28;1746:8;1727:18;:28::i;:::-;1655:107;:::o;221:42:0:-;;;;;;;;;;;;;;;;;;;;;;:::o;834:105::-;893:4;916:9;:16;926:5;916:16;;;;;;;;;;;;;;;;;;;;;;;;;909:23;;834:105;;;:::o;1906:183:9:-;1999:1;1979:22;;:8;:22;;;;1971:31;;;;;;;;2046:8;2017:38;;2038:6;;;;;;;;;;;2017:38;;;;;;;;;;;;2074:8;2065:6;;:17;;;;;;;;;;;;;;;;;;1906:183;:::o",
+  "source": "pragma solidity ^0.5.2;\n\n\nimport \"../../openzeppelin-solidity/contracts/ownership/Ownable.sol\";\n\n/// @title BlackList\n/// @dev Smart contract to enable blacklisting of token holders. \ncontract BlackList is Ownable {\n\n    mapping (address => bool) public blacklist;\n\n    event AddedBlackList(address user);\n    event RemovedBlackList(address user);\n\n\n    /// @dev terminate transaction if any of the participants is blacklisted\n    /// @param _from - user initiating process\n    /// @param _to  - user involved in process\n    modifier isNotBlacklisted(address _from, address _to) {\n        require(!blacklist[_from], \"User is blacklisted\");\n        require(!blacklist[_to], \"User is blacklisted\");\n        _;\n    }\n\n    /// @dev check if user has been black listed\n    /// @param _user - usr to check\n    /// @return true or false\n    function isBlacklisted(address _user) public view returns (bool) {\n        return blacklist[_user];\n    }\n    \n    /// @dev add user to black list\n    /// @param _user to blacklist\n    function addBlackList (address _user) public onlyOwner {\n        blacklist[_user] = true;\n        emit AddedBlackList(_user);\n    }\n\n    /// @dev remove user from black list\n    /// @param _user - user to be removed from black list\n    function removeBlackList (address _user) public onlyOwner {\n        blacklist[_user] = false;\n        emit RemovedBlackList(_user);\n    }\n\n}",
   "sourcePath": "/home/bogdan/Ethereum/Projects/canndollar/contracts/Blacklist.sol",
   "ast": {
     "absolutePath": "/home/bogdan/Ethereum/Projects/canndollar/contracts/Blacklist.sol",
@@ -368,7 +368,7 @@
             "body": {
               "id": 39,
               "nodeType": "Block",
-              "src": "408:134:0",
+              "src": "579:134:0",
               "statements": [
                 {
                   "expression": {
@@ -384,7 +384,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "426:17:0",
+                        "src": "597:17:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -394,7 +394,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 8,
-                            "src": "427:9:0",
+                            "src": "598:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -408,7 +408,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 18,
-                            "src": "437:5:0",
+                            "src": "608:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -419,7 +419,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "427:16:0",
+                          "src": "598:16:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -440,7 +440,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "445:21:0",
+                        "src": "616:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_7765512e0db4d050130cadb6a7216b55319311a212ddc52b70a579b9eb133c08",
@@ -468,7 +468,7 @@
                         1765
                       ],
                       "referencedDeclaration": 1765,
-                      "src": "418:7:0",
+                      "src": "589:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -482,7 +482,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "418:49:0",
+                    "src": "589:49:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -490,7 +490,7 @@
                   },
                   "id": 29,
                   "nodeType": "ExpressionStatement",
-                  "src": "418:49:0"
+                  "src": "589:49:0"
                 },
                 {
                   "expression": {
@@ -506,7 +506,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "485:15:0",
+                        "src": "656:15:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -516,7 +516,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 8,
-                            "src": "486:9:0",
+                            "src": "657:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -530,7 +530,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 20,
-                            "src": "496:3:0",
+                            "src": "667:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -541,7 +541,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "486:14:0",
+                          "src": "657:14:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -562,7 +562,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "502:21:0",
+                        "src": "673:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_7765512e0db4d050130cadb6a7216b55319311a212ddc52b70a579b9eb133c08",
@@ -590,7 +590,7 @@
                         1765
                       ],
                       "referencedDeclaration": 1765,
-                      "src": "477:7:0",
+                      "src": "648:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -604,7 +604,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "477:47:0",
+                    "src": "648:47:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -612,16 +612,16 @@
                   },
                   "id": 37,
                   "nodeType": "ExpressionStatement",
-                  "src": "477:47:0"
+                  "src": "648:47:0"
                 },
                 {
                   "id": 38,
                   "nodeType": "PlaceholderStatement",
-                  "src": "534:1:0"
+                  "src": "705:1:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev terminate transaction if any of the participants is blacklisted\n @param _from - user initiating process\n @param _to  - user involved in process",
             "id": 40,
             "name": "isNotBlacklisted",
             "nodeType": "ModifierDefinition",
@@ -635,7 +635,7 @@
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
                   "scope": 40,
-                  "src": "380:13:0",
+                  "src": "551:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -646,7 +646,7 @@
                     "id": 17,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "380:7:0",
+                    "src": "551:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -662,7 +662,7 @@
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
                   "scope": 40,
-                  "src": "395:11:0",
+                  "src": "566:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -673,7 +673,7 @@
                     "id": 19,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "395:7:0",
+                    "src": "566:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -684,16 +684,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "379:28:0"
+              "src": "550:28:0"
             },
-            "src": "354:188:0",
+            "src": "525:188:0",
             "visibility": "internal"
           },
           {
             "body": {
               "id": 51,
               "nodeType": "Block",
-              "src": "614:41:0",
+              "src": "899:40:0",
               "statements": [
                 {
                   "expression": {
@@ -705,7 +705,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 8,
-                      "src": "631:9:0",
+                      "src": "916:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                         "typeString": "mapping(address => bool)"
@@ -715,11 +715,11 @@
                     "indexExpression": {
                       "argumentTypes": null,
                       "id": 48,
-                      "name": "_maker",
+                      "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 42,
-                      "src": "641:6:0",
+                      "src": "926:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -730,7 +730,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "631:17:0",
+                    "src": "916:16:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -739,11 +739,11 @@
                   "functionReturnParameters": 46,
                   "id": 50,
                   "nodeType": "Return",
-                  "src": "624:24:0"
+                  "src": "909:23:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev check if user has been black listed\n @param _user - usr to check\n @return true or false",
             "id": 52,
             "implemented": true,
             "kind": "function",
@@ -757,10 +757,10 @@
                 {
                   "constant": false,
                   "id": 42,
-                  "name": "_maker",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 52,
-                  "src": "571:14:0",
+                  "src": "857:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -771,7 +771,7 @@
                     "id": 41,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "571:7:0",
+                    "src": "857:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -782,7 +782,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "570:16:0"
+              "src": "856:15:0"
             },
             "returnParameters": {
               "id": 46,
@@ -794,7 +794,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 52,
-                  "src": "608:4:0",
+                  "src": "893:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -805,7 +805,7 @@
                     "id": 44,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "608:4:0",
+                    "src": "893:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -815,10 +815,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "607:6:0"
+              "src": "892:6:0"
             },
             "scope": 89,
-            "src": "548:107:0",
+            "src": "834:105:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -827,7 +827,7 @@
             "body": {
               "id": 69,
               "nodeType": "Block",
-              "src": "724:84:0",
+              "src": "1074:76:0",
               "statements": [
                 {
                   "expression": {
@@ -846,7 +846,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 8,
-                        "src": "734:9:0",
+                        "src": "1084:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -856,11 +856,11 @@
                       "indexExpression": {
                         "argumentTypes": null,
                         "id": 60,
-                        "name": "_evilUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 54,
-                        "src": "744:9:0",
+                        "src": "1094:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -871,7 +871,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "734:20:0",
+                      "src": "1084:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -889,7 +889,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "757:4:0",
+                      "src": "1103:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -897,7 +897,7 @@
                       },
                       "value": "true"
                     },
-                    "src": "734:27:0",
+                    "src": "1084:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -905,7 +905,7 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "734:27:0"
+                  "src": "1084:23:0"
                 },
                 {
                   "eventCall": {
@@ -914,11 +914,11 @@
                       {
                         "argumentTypes": null,
                         "id": 66,
-                        "name": "_evilUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 54,
-                        "src": "791:9:0",
+                        "src": "1137:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -937,7 +937,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "776:14:0",
+                      "src": "1122:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -951,7 +951,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "776:25:0",
+                    "src": "1122:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -959,11 +959,11 @@
                   },
                   "id": 68,
                   "nodeType": "EmitStatement",
-                  "src": "771:30:0"
+                  "src": "1117:26:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev add user to black list\n @param _user to blacklist",
             "id": 70,
             "implemented": true,
             "kind": "function",
@@ -978,14 +978,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1054,
-                  "src": "714:9:0",
+                  "src": "1064:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "714:9:0"
+                "src": "1064:9:0"
               }
             ],
             "name": "addBlackList",
@@ -997,10 +997,10 @@
                 {
                   "constant": false,
                   "id": 54,
-                  "name": "_evilUser",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 70,
-                  "src": "688:17:0",
+                  "src": "1042:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1011,7 +1011,7 @@
                     "id": 53,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "688:7:0",
+                    "src": "1042:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1022,16 +1022,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "687:19:0"
+              "src": "1041:15:0"
             },
             "returnParameters": {
               "id": 58,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "724:0:0"
+              "src": "1074:0:0"
             },
             "scope": 89,
-            "src": "665:143:0",
+            "src": "1019:131:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1040,7 +1040,7 @@
             "body": {
               "id": 87,
               "nodeType": "Block",
-              "src": "879:93:0",
+              "src": "1313:79:0",
               "statements": [
                 {
                   "expression": {
@@ -1059,7 +1059,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 8,
-                        "src": "889:9:0",
+                        "src": "1323:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -1069,11 +1069,11 @@
                       "indexExpression": {
                         "argumentTypes": null,
                         "id": 78,
-                        "name": "_clearedUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 72,
-                        "src": "899:12:0",
+                        "src": "1333:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1084,7 +1084,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "889:23:0",
+                      "src": "1323:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1102,7 +1102,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "915:5:0",
+                      "src": "1342:5:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1110,7 +1110,7 @@
                       },
                       "value": "false"
                     },
-                    "src": "889:31:0",
+                    "src": "1323:24:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1118,7 +1118,7 @@
                   },
                   "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "889:31:0"
+                  "src": "1323:24:0"
                 },
                 {
                   "eventCall": {
@@ -1127,11 +1127,11 @@
                       {
                         "argumentTypes": null,
                         "id": 84,
-                        "name": "_clearedUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 72,
-                        "src": "952:12:0",
+                        "src": "1379:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1150,7 +1150,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "935:16:0",
+                      "src": "1362:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -1164,7 +1164,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "935:30:0",
+                    "src": "1362:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1172,11 +1172,11 @@
                   },
                   "id": 86,
                   "nodeType": "EmitStatement",
-                  "src": "930:35:0"
+                  "src": "1357:28:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev remove user from black list\n @param _user - user to be removed from black list",
             "id": 88,
             "implemented": true,
             "kind": "function",
@@ -1191,14 +1191,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1054,
-                  "src": "869:9:0",
+                  "src": "1303:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "869:9:0"
+                "src": "1303:9:0"
               }
             ],
             "name": "removeBlackList",
@@ -1210,10 +1210,10 @@
                 {
                   "constant": false,
                   "id": 72,
-                  "name": "_clearedUser",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 88,
-                  "src": "840:20:0",
+                  "src": "1281:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1224,7 +1224,7 @@
                     "id": 71,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "840:7:0",
+                    "src": "1281:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1235,26 +1235,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "839:22:0"
+              "src": "1280:15:0"
             },
             "returnParameters": {
               "id": 76,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "879:0:0"
+              "src": "1313:0:0"
             },
             "scope": 89,
-            "src": "814:158:0",
+            "src": "1255:137:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 90,
-        "src": "184:791:0"
+        "src": "184:1211:0"
       }
     ],
-    "src": "0:975:0"
+    "src": "0:1395:0"
   },
   "legacyAST": {
     "absolutePath": "/home/bogdan/Ethereum/Projects/canndollar/contracts/Blacklist.sol",
@@ -1458,7 +1458,7 @@
             "body": {
               "id": 39,
               "nodeType": "Block",
-              "src": "408:134:0",
+              "src": "579:134:0",
               "statements": [
                 {
                   "expression": {
@@ -1474,7 +1474,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "426:17:0",
+                        "src": "597:17:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -1484,7 +1484,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 8,
-                            "src": "427:9:0",
+                            "src": "598:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -1498,7 +1498,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 18,
-                            "src": "437:5:0",
+                            "src": "608:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1509,7 +1509,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "427:16:0",
+                          "src": "598:16:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1530,7 +1530,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "445:21:0",
+                        "src": "616:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_7765512e0db4d050130cadb6a7216b55319311a212ddc52b70a579b9eb133c08",
@@ -1558,7 +1558,7 @@
                         1765
                       ],
                       "referencedDeclaration": 1765,
-                      "src": "418:7:0",
+                      "src": "589:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -1572,7 +1572,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "418:49:0",
+                    "src": "589:49:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1580,7 +1580,7 @@
                   },
                   "id": 29,
                   "nodeType": "ExpressionStatement",
-                  "src": "418:49:0"
+                  "src": "589:49:0"
                 },
                 {
                   "expression": {
@@ -1596,7 +1596,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "485:15:0",
+                        "src": "656:15:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -1606,7 +1606,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 8,
-                            "src": "486:9:0",
+                            "src": "657:9:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -1620,7 +1620,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 20,
-                            "src": "496:3:0",
+                            "src": "667:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1631,7 +1631,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "486:14:0",
+                          "src": "657:14:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1652,7 +1652,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "502:21:0",
+                        "src": "673:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_7765512e0db4d050130cadb6a7216b55319311a212ddc52b70a579b9eb133c08",
@@ -1680,7 +1680,7 @@
                         1765
                       ],
                       "referencedDeclaration": 1765,
-                      "src": "477:7:0",
+                      "src": "648:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -1694,7 +1694,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "477:47:0",
+                    "src": "648:47:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1702,16 +1702,16 @@
                   },
                   "id": 37,
                   "nodeType": "ExpressionStatement",
-                  "src": "477:47:0"
+                  "src": "648:47:0"
                 },
                 {
                   "id": 38,
                   "nodeType": "PlaceholderStatement",
-                  "src": "534:1:0"
+                  "src": "705:1:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev terminate transaction if any of the participants is blacklisted\n @param _from - user initiating process\n @param _to  - user involved in process",
             "id": 40,
             "name": "isNotBlacklisted",
             "nodeType": "ModifierDefinition",
@@ -1725,7 +1725,7 @@
                   "name": "_from",
                   "nodeType": "VariableDeclaration",
                   "scope": 40,
-                  "src": "380:13:0",
+                  "src": "551:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1736,7 +1736,7 @@
                     "id": 17,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "380:7:0",
+                    "src": "551:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1752,7 +1752,7 @@
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
                   "scope": 40,
-                  "src": "395:11:0",
+                  "src": "566:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1763,7 +1763,7 @@
                     "id": 19,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "395:7:0",
+                    "src": "566:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1774,16 +1774,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "379:28:0"
+              "src": "550:28:0"
             },
-            "src": "354:188:0",
+            "src": "525:188:0",
             "visibility": "internal"
           },
           {
             "body": {
               "id": 51,
               "nodeType": "Block",
-              "src": "614:41:0",
+              "src": "899:40:0",
               "statements": [
                 {
                   "expression": {
@@ -1795,7 +1795,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 8,
-                      "src": "631:9:0",
+                      "src": "916:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                         "typeString": "mapping(address => bool)"
@@ -1805,11 +1805,11 @@
                     "indexExpression": {
                       "argumentTypes": null,
                       "id": 48,
-                      "name": "_maker",
+                      "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 42,
-                      "src": "641:6:0",
+                      "src": "926:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -1820,7 +1820,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "631:17:0",
+                    "src": "916:16:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1829,11 +1829,11 @@
                   "functionReturnParameters": 46,
                   "id": 50,
                   "nodeType": "Return",
-                  "src": "624:24:0"
+                  "src": "909:23:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev check if user has been black listed\n @param _user - usr to check\n @return true or false",
             "id": 52,
             "implemented": true,
             "kind": "function",
@@ -1847,10 +1847,10 @@
                 {
                   "constant": false,
                   "id": 42,
-                  "name": "_maker",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 52,
-                  "src": "571:14:0",
+                  "src": "857:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1861,7 +1861,7 @@
                     "id": 41,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "571:7:0",
+                    "src": "857:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1872,7 +1872,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "570:16:0"
+              "src": "856:15:0"
             },
             "returnParameters": {
               "id": 46,
@@ -1884,7 +1884,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 52,
-                  "src": "608:4:0",
+                  "src": "893:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1895,7 +1895,7 @@
                     "id": 44,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "608:4:0",
+                    "src": "893:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1905,10 +1905,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "607:6:0"
+              "src": "892:6:0"
             },
             "scope": 89,
-            "src": "548:107:0",
+            "src": "834:105:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1917,7 +1917,7 @@
             "body": {
               "id": 69,
               "nodeType": "Block",
-              "src": "724:84:0",
+              "src": "1074:76:0",
               "statements": [
                 {
                   "expression": {
@@ -1936,7 +1936,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 8,
-                        "src": "734:9:0",
+                        "src": "1084:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -1946,11 +1946,11 @@
                       "indexExpression": {
                         "argumentTypes": null,
                         "id": 60,
-                        "name": "_evilUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 54,
-                        "src": "744:9:0",
+                        "src": "1094:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1961,7 +1961,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "734:20:0",
+                      "src": "1084:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1979,7 +1979,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "757:4:0",
+                      "src": "1103:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1987,7 +1987,7 @@
                       },
                       "value": "true"
                     },
-                    "src": "734:27:0",
+                    "src": "1084:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1995,7 +1995,7 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "734:27:0"
+                  "src": "1084:23:0"
                 },
                 {
                   "eventCall": {
@@ -2004,11 +2004,11 @@
                       {
                         "argumentTypes": null,
                         "id": 66,
-                        "name": "_evilUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 54,
-                        "src": "791:9:0",
+                        "src": "1137:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2027,7 +2027,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "776:14:0",
+                      "src": "1122:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -2041,7 +2041,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "776:25:0",
+                    "src": "1122:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2049,11 +2049,11 @@
                   },
                   "id": 68,
                   "nodeType": "EmitStatement",
-                  "src": "771:30:0"
+                  "src": "1117:26:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev add user to black list\n @param _user to blacklist",
             "id": 70,
             "implemented": true,
             "kind": "function",
@@ -2068,14 +2068,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1054,
-                  "src": "714:9:0",
+                  "src": "1064:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "714:9:0"
+                "src": "1064:9:0"
               }
             ],
             "name": "addBlackList",
@@ -2087,10 +2087,10 @@
                 {
                   "constant": false,
                   "id": 54,
-                  "name": "_evilUser",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 70,
-                  "src": "688:17:0",
+                  "src": "1042:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2101,7 +2101,7 @@
                     "id": 53,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "688:7:0",
+                    "src": "1042:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2112,16 +2112,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "687:19:0"
+              "src": "1041:15:0"
             },
             "returnParameters": {
               "id": 58,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "724:0:0"
+              "src": "1074:0:0"
             },
             "scope": 89,
-            "src": "665:143:0",
+            "src": "1019:131:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -2130,7 +2130,7 @@
             "body": {
               "id": 87,
               "nodeType": "Block",
-              "src": "879:93:0",
+              "src": "1313:79:0",
               "statements": [
                 {
                   "expression": {
@@ -2149,7 +2149,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 8,
-                        "src": "889:9:0",
+                        "src": "1323:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -2159,11 +2159,11 @@
                       "indexExpression": {
                         "argumentTypes": null,
                         "id": 78,
-                        "name": "_clearedUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 72,
-                        "src": "899:12:0",
+                        "src": "1333:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2174,7 +2174,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "889:23:0",
+                      "src": "1323:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -2192,7 +2192,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "915:5:0",
+                      "src": "1342:5:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2200,7 +2200,7 @@
                       },
                       "value": "false"
                     },
-                    "src": "889:31:0",
+                    "src": "1323:24:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2208,7 +2208,7 @@
                   },
                   "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "889:31:0"
+                  "src": "1323:24:0"
                 },
                 {
                   "eventCall": {
@@ -2217,11 +2217,11 @@
                       {
                         "argumentTypes": null,
                         "id": 84,
-                        "name": "_clearedUser",
+                        "name": "_user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 72,
-                        "src": "952:12:0",
+                        "src": "1379:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2240,7 +2240,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "935:16:0",
+                      "src": "1362:16:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -2254,7 +2254,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "935:30:0",
+                    "src": "1362:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2262,11 +2262,11 @@
                   },
                   "id": 86,
                   "nodeType": "EmitStatement",
-                  "src": "930:35:0"
+                  "src": "1357:28:0"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@dev remove user from black list\n @param _user - user to be removed from black list",
             "id": 88,
             "implemented": true,
             "kind": "function",
@@ -2281,14 +2281,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1054,
-                  "src": "869:9:0",
+                  "src": "1303:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "869:9:0"
+                "src": "1303:9:0"
               }
             ],
             "name": "removeBlackList",
@@ -2300,10 +2300,10 @@
                 {
                   "constant": false,
                   "id": 72,
-                  "name": "_clearedUser",
+                  "name": "_user",
                   "nodeType": "VariableDeclaration",
                   "scope": 88,
-                  "src": "840:20:0",
+                  "src": "1281:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2314,7 +2314,7 @@
                     "id": 71,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "840:7:0",
+                    "src": "1281:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2325,26 +2325,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "839:22:0"
+              "src": "1280:15:0"
             },
             "returnParameters": {
               "id": 76,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "879:0:0"
+              "src": "1313:0:0"
             },
             "scope": 89,
-            "src": "814:158:0",
+            "src": "1255:137:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 90,
-        "src": "184:791:0"
+        "src": "184:1211:0"
       }
     ],
-    "src": "0:975:0"
+    "src": "0:1395:0"
   },
   "compiler": {
     "name": "solc",
@@ -2352,15 +2352,34 @@
   },
   "networks": {},
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-02-09T20:14:23.042Z",
+  "updatedAt": "2019-02-09T20:46:07.761Z",
   "devdoc": {
     "details": "Smart contract to enable blacklisting of token holders. ",
     "methods": {
+      "addBlackList(address)": {
+        "details": "add user to black list",
+        "params": {
+          "_user": "to blacklist"
+        }
+      },
+      "isBlacklisted(address)": {
+        "details": "check if user has been black listed",
+        "params": {
+          "_user": "- usr to check"
+        },
+        "return": "true or false"
+      },
       "isOwner()": {
         "return": "true if `msg.sender` is the owner of the contract."
       },
       "owner()": {
         "return": "the address of the owner."
+      },
+      "removeBlackList(address)": {
+        "details": "remove user from black list",
+        "params": {
+          "_user": "- user to be removed from black list"
+        }
       },
       "renounceOwnership()": {
         "details": "Allows the current owner to relinquish control of the contract."

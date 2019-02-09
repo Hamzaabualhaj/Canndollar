@@ -13,24 +13,34 @@ contract BlackList is Ownable {
     event RemovedBlackList(address user);
 
 
+    /// @dev terminate transaction if any of the participants is blacklisted
+    /// @param _from - user initiating process
+    /// @param _to  - user involved in process
     modifier isNotBlacklisted(address _from, address _to) {
         require(!blacklist[_from], "User is blacklisted");
         require(!blacklist[_to], "User is blacklisted");
         _;
     }
 
-    function isBlacklisted(address _maker) public view returns (bool) {
-        return blacklist[_maker];
+    /// @dev check if user has been black listed
+    /// @param _user - usr to check
+    /// @return true or false
+    function isBlacklisted(address _user) public view returns (bool) {
+        return blacklist[_user];
     }
     
-    function addBlackList (address _evilUser) public onlyOwner {
-        blacklist[_evilUser] = true;
-        emit AddedBlackList(_evilUser);
+    /// @dev add user to black list
+    /// @param _user to blacklist
+    function addBlackList (address _user) public onlyOwner {
+        blacklist[_user] = true;
+        emit AddedBlackList(_user);
     }
 
-    function removeBlackList (address _clearedUser) public onlyOwner {
-        blacklist[_clearedUser] = false;
-        emit RemovedBlackList(_clearedUser);
+    /// @dev remove user from black list
+    /// @param _user - user to be removed from black list
+    function removeBlackList (address _user) public onlyOwner {
+        blacklist[_user] = false;
+        emit RemovedBlackList(_user);
     }
 
 }

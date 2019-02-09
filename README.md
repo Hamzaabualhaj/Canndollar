@@ -4,6 +4,8 @@
 2. Mintable
 3. With Cap
 4. With Blacklist
+5. With ability to be migrated in the future
+6. Refusing for tokens to be sent to it accidentally
 
 **Token Name**
 
